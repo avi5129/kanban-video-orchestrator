@@ -1,0 +1,79 @@
+{
+  "title": "PROJECT_TITLE_PLACEHOLDER",
+  "slug": "project-slug-placeholder",
+  "tenant": "project-slug-placeholder",
+  "duration_s": 60,
+  "aspect": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "style": "STYLE_DESCRIPTION_PLACEHOLDER",
+  "voice": "VOICE_DESCRIPTION_PLACEHOLDER",
+  "music": "MUSIC_DESCRIPTION_PLACEHOLDER",
+  "scenes": [
+    {
+      "n": 1,
+      "time": "TIME_RANGE_PLACEHOLDER",
+      "content": "CONTENT_DESCRIPTION_PLACEHOLDER",
+      "tool": "TOOL_PLACEHOLDER",
+      "audio": "AUDIO_DESCRIPTION_PLACEHOLDER",
+      "notes": "NOTES_PLACEHOLDER"
+    }
+  ],
+  "audio": {
+    "voiceover": true,
+    "music": true,
+    "sfx": []
+  },
+  "deliverables": [
+    {
+      "format": "mp4",
+      "resolution": "1080x1920",
+      "notes": "primary final video"
+    }
+  ],
+  "team": [
+    {
+      "profile": "director",
+      "role": "director",
+      "toolsets": ["kanban", "terminal", "file"],
+      "skills": [],
+      "responsibilities": "Decompose brief into scenes, audio, and editor tasks. Route work to specialists via kanban."
+    },
+    {
+      "profile": "cinematographer",
+      "role": "cinematographer",
+      "toolsets": ["terminal", "file"],
+      "skills": [],
+      "responsibilities": "Write VISUAL_SPEC.md with shot language, timing, and tool assignments per scene."
+    },
+    {
+      "profile": "renderer",
+      "role": "renderer",
+      "toolsets": ["terminal", "file"],
+      "skills": ["manim-video", "p5js"],
+      "responsibilities": "Render scene clips to scenes/N/clip.mp4 using the assigned tool."
+    },
+    {
+      "profile": "voice-talent",
+      "role": "voice-talent",
+      "toolsets": ["terminal", "file"],
+      "skills": [],
+      "responsibilities": "Generate or source narration WAV files for each voiceover line."
+    },
+    {
+      "profile": "audio-mixer",
+      "role": "audio-mixer",
+      "toolsets": ["terminal", "file"],
+      "skills": [],
+      "responsibilities": "Mix music bed, voiceover, and SFX into audio/track_final.wav."
+    },
+    {
+      "profile": "editor",
+      "role": "editor",
+      "toolsets": ["terminal", "file"],
+      "skills": [],
+      "responsibilities": "Concatenate scene clips, mux final audio, and verify output/final.mp4."
+    }
+  ],
+  "notes": "ADDITIONAL_NOTES_PLACEHOLDER"
+}
